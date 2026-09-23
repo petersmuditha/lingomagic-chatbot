@@ -1,0 +1,11 @@
+# Environment virtuale
+venv/
+
+# File con la chiave API (SEGRETO!)
+.env
+
+# Cache di Python
+__pycache__/
+
+# Database vettoriale (rigenerabile)
+chroma_db/

@@ -1,0 +1,47 @@
+LINGOMAGIC - FREQUENTLY ASKED QUESTIONS
+
+ABOUT LINGOMAGIC
+LingoMagic is an online language learning platform founded in 2020.
+We offer courses in English, Spanish, French, German, and Japanese.
+Our method combines interactive lessons, native-speaker tutors, and AI-powered conversation practice.
+
+SUBSCRIPTION PLANS
+We offer three subscription tiers:
+- Basic: 9.99 EUR/month. Access to all interactive lessons and AI conversation practice.
+- Premium: 24.99 EUR/month. Includes 4 live lessons per month with a native tutor.
+- Unlimited: 49.99 EUR/month. Unlimited live lessons, priority support, and certification exams included.
+All plans include a 7-day free trial. Cancel anytime, no questions asked.
+
+HOW TO CANCEL A SUBSCRIPTION
+To cancel your subscription, go to Account Settings > Billing > Cancel Subscription.
+You will keep access until the end of your current billing period.
+Refunds are available within 14 days of purchase if you have used less than 2 hours of lessons.
+
+PAYMENT METHODS
+We accept credit cards (Visa, Mastercard, American Express), PayPal, and bank transfers.
+Payments are processed securely via Stripe. We never store your card details on our servers.
+Invoices are available for download in Account Settings > Billing > Invoices.
+
+CERTIFICATIONS
+LingoMagic certifications are recognized by over 200 companies across Europe.
+To obtain a certificate, you must complete the final exam of your course with a score of at least 80%.
+Certificates are issued digitally and can be shared on LinkedIn.
+Premium and Unlimited subscribers can take the exam for free. Basic subscribers pay a 29 EUR fee.
+
+FINDING A TUTOR
+All tutors on LingoMagic are native speakers and hold a teaching certification (TEFL, CELTA, or equivalent).
+You can browse tutors by language, availability, and specialty (business, exam prep, conversation).
+Book a trial lesson with any tutor for free before committing.
+
+TECHNICAL ISSUES
+If you cannot access a lesson, try:
+1. Refreshing the page or clearing your browser cache.
+2. Checking your internet connection (minimum 5 Mbps recommended).
+3. Trying a different browser (Chrome, Firefox, or Safari).
+4. Disabling browser extensions that might interfere with video calls.
+If the issue persists, contact support at support@lingomagic.com.
+
+MOBILE APP
+The LingoMagic app is available for iOS (App Store) and Android (Google Play).
+You can download lessons for offline use with a Premium or Unlimited subscription.
+Progress syncs automatically between the app and the website.
