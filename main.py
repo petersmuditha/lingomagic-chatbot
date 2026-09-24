@@ -8,6 +8,9 @@ from langchain_chroma import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
+from langchain_classic.retrievers import ContextualCompressionRetriever
+from langchain_classic.retrievers.document_compressors import CrossEncoderReranker
+from langchain_community.cross_encoders import HuggingFaceCrossEncoder
 
 # Load API key from .env file
 load_dotenv()
@@ -39,8 +42,19 @@ vectorstore = Chroma.from_documents(
 )
 print("Vector database created successfully!")
 
-# Configure the retriever
-retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+# Base retriever (recovers the 10 most similar chunks)
+base_retriever = vectorstore.as_retriever(search_kwargs={"k": 10})
+
+# Cross-encoder for reranking
+print("Loading reranking model (first time: downloads ~1 GB)...")
+cross_encoder = HuggingFaceCrossEncoder(model_name="BAAI/bge-reranker-base")
+compressor = CrossEncoderReranker(model=cross_encoder, top_n=3)
+
+# Retriever with reranking
+retriever = ContextualCompressionRetriever(
+    base_compressor=compressor,
+    base_retriever=base_retriever
+)
 
 # System prompt for LingoMagic
 template = """You are the virtual assistant of LingoMagic, an online language learning platform.
